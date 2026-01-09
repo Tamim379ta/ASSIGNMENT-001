@@ -115,3 +115,57 @@ nav ul a {
 }
 
 
+.card-section {
+  width: 71%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.card-section h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.card-section p {
+  padding-top: 10px;
+  text-align: center;
+}
+
+
+.card-section .cards {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  justify-content: space-between;
+  
+
+}
+.card-section .card {
+  box-shadow:  0px 4px 10px gray;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  justify-content: space-between;
+  flex: 1;
+}
+
+
+.cards img {
+  background-color: rgb(219, 75, 75);
+  padding: 5px;
+  border-radius: 50%;
+  
+}
+
+.cards h2 {
+  padding: 20px 0px;
+  
+}
+
+.card p {
+  padding-right: 20px;
+  padding-left: 20px;
+}
