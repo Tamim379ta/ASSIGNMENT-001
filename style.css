@@ -102,23 +102,30 @@ nav ul a {
   align-items: center;
 }
 
+.banner-btn1:hover {
+  background-color: rgba(85, 48, 100, 0.674);
+}
+
 .banner-btn2 {
   margin-left: 10px;
   padding: 11px 25px;
-  background-color: rgb(78, 138, 138);
+  border: 2px solid white;
+  background-color: transparent ;
   font-size: 14px;
-  font-weight: bold;
   color: white;
-  border: none;
+  border: 2px solid white;
   cursor: pointer;
   border-radius: 5px;
 }
 
+.banner-btn2:hover {
+  background-color: rgba(255, 255, 255, 0.116);
+}
 
 .card-section {
   width: 71%;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .card-section h1 {
@@ -137,8 +144,6 @@ nav ul a {
   gap: 40px;
   margin-top: 40px;
   justify-content: space-between;
-  
-
 }
 .card-section .card {
   box-shadow:  0px 4px 10px gray;
@@ -168,4 +173,120 @@ nav ul a {
 .card p {
   padding-right: 20px;
   padding-left: 20px;
+  padding-bottom: 20px;
 }
+
+.banner2 {
+  display: flex;
+  width: 71%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.banner2-text {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.banner2-text h4 {
+  color: rgb(59, 129, 43);
+}
+
+.banner2-text h1 {
+  font-size: 48px;
+  padding-top: 20px;
+}
+
+.banner2-text .personal {
+  padding-top: 20px;
+  color: rgb(80, 80, 80);
+}
+
+ .banner2 .img-text {
+  display: flex;
+  padding-top: 10px;
+ }
+
+ .banner2 .list-item {
+  padding-top: 30px;
+ }
+
+ .extra-section {
+  width: 71%;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  background-color: rgb(255, 255, 236);
+  border-radius: 10px;
+ }
+
+ .extra-section h1 {
+  font-size: 40px;
+ }
+
+.extra-section p {
+    padding-top: 20px;
+    color: rgb(80, 80, 80);
+    padding-bottom: 20px;
+  }
+
+.extra-section button {
+  padding: 10px 25px;
+  background-color: rgb(78, 138, 138);
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.extra-section button:hover {
+  background-color: rgb(85, 48, 100);
+}
+
+.extra-section .free {
+  padding-bottom: 50px;
+}
+
+
+footer {
+background-color: rgba(0, 25, 49, 1);
+}
+
+footer hr {
+  width: 71%;
+  margin: auto;
+  margin-top: 100px;
+}
+footer .upper-section {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 71%;
+  margin: 0 auto;
+}
+
+.upper-section p {
+  color: white;
+}
+
+.upper-section i {
+  color: white;
+  cursor: pointer;
+}
+
+.copyright {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+
+
