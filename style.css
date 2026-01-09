@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  margin: 0 auto;
+  width: 71%;
+  justify-content: space-between;
+
+}
+
+header {
+  padding-top: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 16px;
+  align-items: center;
+  
+
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+.btn{
+  padding: 5px 25px;
+  background-color: rgb(78, 138, 138);
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(85, 48, 100);
+}
+
+
